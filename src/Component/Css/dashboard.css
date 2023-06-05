@@ -1,0 +1,48 @@
+.profile-footer{
+    display: flex;
+    flex-direction: row;
+    /* width: 100% !important; */
+  justify-content: space-around;
+
+}
+
+.meta-card{
+    /* width:100% !important; */
+}
+.title-description{
+    display: flex;
+    flex-direction: column;
+}
+.online-status{
+    justify-content: center;
+
+}
+.navbar-top{
+    /* background-color: aqua;
+    width:100%;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    display: flex;
+    position:fixed;
+    z-index: 100;
+     margin-bottom:4rem; */
+     background-color: aqua;
+    position: sticky;
+    width:100%;
+    top: 0px;
+    z-index: 1;
+    padding-top:2rem;
+    padding-bottom:2rem;
+   
+}
+.dashboard-container{
+    margin-top:0.5rem;
+}
+
+.profile-user{
+    width:50% !important;
+}
+
+.mt-5{
+    margin-top: 10px;
+}
